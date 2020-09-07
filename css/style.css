@@ -1,0 +1,60 @@
+body {
+	margin-top: 30px;
+}
+
+.jumbotron {
+	background-image: url(../img/jumbotron.png);
+	color: #fff;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 3px solid #999;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+
+.jumbotron h1, .jumbotron p {
+	text-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+.gallery {
+	background-color: #eee;
+}
+
+.contact {
+	min-height: 700px;
+}
+
+.card {
+	background-color: #333;
+	padding-top: 20px;
+}
+
+.card p {
+	color: #ccc;
+}
+
+#home::before,
+#about::before,
+#gallery::before,
+#contact::before {
+display: block;
+content: " ";
+margin-top: -65px;
+height: 65px;
+visibility: hidden;
+}
